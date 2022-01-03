@@ -1,0 +1,132 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+.header{
+    background: rgba(179, 61, 140, 0.192) 
+}
+.footer {
+    background: rgba(179, 61, 140, 0.192) 
+
+}
+.main {
+    background: rgba(179, 61, 140, 0.055) 
+}
+.main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+  .nav {
+    padding: 30px;
+    line-height: 15px;
+    margin-left: 45%;
+    margin-right: auto;
+  }
+  .nav {
+    transition: .3s;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  .section-item {
+    position: relative;
+    padding-left: 30px;
+  }
+  .body {
+    min-height: 100vh;
+    
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+    color: #502727;
+  }
+
+  .profile-title {
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: #b120dd;
+  }
+  .profile-subtitle {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #b120dd  
+  }
+  .contacts-title {
+    letter-spacing: 6px;
+  }
+  .skills-title {
+    letter-spacing: 6px;
+  }
+  .summary-title {
+    letter-spacing: 6px;
+  }
+  .projects-title {
+    letter-spacing: 6px;
+  }
+  .code-title {
+    letter-spacing: 6px;
+  }
+  .education-title {
+    letter-spacing: 6px;
+  }
+  .languages-title {
+    letter-spacing: 6px;
+  }
+  .contacts-title {
+    letter-spacing: 6px;
+  }
+  .about-me {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+  img {
+    border-radius: 2%;
+}
+a { 
+    text-decoration: none;
+    color: #502727;
+   } 
+
+a:hover {
+    border-bottom: 1px dashed rgba(194, 9, 194, 0.644);
+   }
+a:visited {
+    color: rgb(255, 255, 255);
+}
+.middle { 
+    vertical-align: middle; 
+}
+
+.container-footer {
+  display: inline-table;
+ 
+}
